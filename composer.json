@@ -1,0 +1,17 @@
+{
+  "name": "thesisguard/php",
+  "description": "Repositorio y revisión académica con PHP, MySQL y Gemini",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-mbstring": "*",
+    "ext-dom": "*",
+    "ext-curl": "*",
+    "smalot/pdfparser": "^2.12",
+    "dompdf/dompdf": "^3.1"
+  },
+  "autoload": {"psr-4": {"ThesisGuard\\": "app/"}},
+  "config": {"sort-packages": true, "allow-plugins": false}
+}

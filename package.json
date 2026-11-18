@@ -1,0 +1,10 @@
+{
+  "name": "thesisguard-browser-checks",
+  "private": true,
+  "scripts": {
+    "check": "powershell -NoProfile -File scripts/check.ps1",
+    "test:browser": "node tests/role-panels.cjs",
+    "test:roles": "node tests/role-panels.cjs"
+  },
+  "devDependencies": {"@playwright/test": "^1.56.0"}
+}
